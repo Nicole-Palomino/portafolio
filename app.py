@@ -18,6 +18,12 @@ def load_lottieurl(url):
 # url del lotiie
 lottie_file ="https://lottie.host/dad47bff-17ea-4b48-a93a-0fe3c863a1f4/vWzC8OSOJX.json"
 
+# url imagenes
+img_perfil = "https://i.postimg.cc/wxZLsfxv/perfil.png"
+img_generador = "https://i.postimg.cc/fTPXbdCk/Generador.png"
+img_linktree = "https://i.postimg.cc/X75FKfXg/linktree.png"
+img_data = "https://i.postimg.cc/W1PZ5dkc/Manchester-United-Liverpool.png"
+
 # sidebar
 with st.sidebar:
     selected = option_menu(
@@ -57,10 +63,7 @@ if selected == "Home":
         st.markdown(html_subtitle, unsafe_allow_html=True)
 
     with col2:
-        image_file = open("img/perfil.png", "rb")
-        image = Image.open(image_file)
-
-        st.image(image, caption=None, width=150)
+        st.image(img_perfil, caption=None, width=150)
         
     with st.container():
         st.write('---')
@@ -105,10 +108,7 @@ if selected == "Projects":
     with st.container():
         col1, col2 = st.columns([2, 2])
         with col1:
-            image_file = open("img/Manchester United_Liverpool.png", "rb")
-            image = Image.open(image_file)
-
-            st.image(image, caption=None, use_column_width='always')
+            st.image(img_data, caption=None, use_column_width='always')
 
         with col2:
             st.header('SOCCER DATA ANALYSIS PROJECT')
@@ -121,10 +121,7 @@ if selected == "Projects":
         st.write('---')
         col1, col2 = st.columns([2, 2])
         with col1:
-            image_file = open("img/linktree.png", "rb")
-            image = Image.open(image_file)
-
-            st.image(image, caption=None, use_column_width='always')
+            st.image(img_linktree, caption=None, use_column_width='always')
         
         with col2:
             st.header('CLONE LINKTREE')
@@ -138,10 +135,7 @@ if selected == "Projects":
 
         col1, col2 = st.columns([2, 2])
         with col1:
-            image_file = open("img/password.png", "rb")
-            image = Image.open(image_file)
-
-            st.image(image, caption=None, use_column_width='always')
+            st.image(img_generador, caption=None, use_column_width='always')
 
         with col2:
             st.header('PASSWORD GENERATOR')
