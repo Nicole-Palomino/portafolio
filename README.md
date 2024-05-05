@@ -20,4 +20,4 @@ Este proyecto está construido con HTML, CSS y JavaScript. Contiene secciones qu
 
 ## Recursos Adicionales
 
-- [Enlace al Sitio Web](https://nicole-palomino.netlify.app/)
+- [Enlace al Sitio Web](https://nicole-palomino.github.io/portafolio/)
