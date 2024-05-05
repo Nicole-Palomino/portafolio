@@ -1,15 +1,22 @@
-# MyPortfolio
+# Portafolio Personal
 
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+![Badge Terminado](https://img.shields.io/badge/STATUS-%20TERMINADO-red)
 
-### Este es mi portafolio personal donde mostraré algunos de los proyectos en los que he trabajado. Para desarrollar este portafolio estoy utilizando las siguientes tecnologías:
+Este proyecto está construido con HTML, CSS y JavaScript. Contiene secciones que muestran información sobre mí, mis proyectos, así como formas de contactarme y conectar a través de las redes sociales.
 
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+## Contenido
+
+- Sobre mí: Breve descripción sobre quién soy y mis habilidades.
+
+- Proyectos: Lista de proyectos destacados realizados, incluyendo enlaces a sus repositorios en GitHub y demostraciones si están disponibles.
+
+- Contacto: Formas de ponerse en contacto conmigo, ya sea a través de correo electrónico o redes sociales.
+
+## Tecnologías Utilizadas
+
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
 ## Recursos Adicionales
 

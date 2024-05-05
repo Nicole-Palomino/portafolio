@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="assets/icons/es.svg" alt="" class="flags__img">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="assets/icons/sh.svg" alt="" class="flags__img">
+        </div>
+      </div>
+
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+        <div data-color="hsl(151, 97%, 44%)" class="colors__item colors__item--green"></div>
+        <div data-color="hsl(0, 75%, 55%)" class="colors__item colors__item--red"></div>
+        <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="column column--left">
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="https://i.postimg.cc/wxZLsfxv/perfil.png" alt="Profile">
+          </div>
+
+          <div class="card__header">
+            <h2 class="card__title no-margin">
+              Nicole Palomino Alvarado
+            </h2>
+            <p class="card__subtitle no-margin" data-section="profile" data-value="rol">
+              Desarrollador Front-End
+            </p>
+          </div>
+
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:nicolepalominoalvarado@gmail.com">
+                nicolepalominoalvarado@gmail.com
+              </a>
+            </div>
+
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:943835428">
+                +51 943835428
+              </a>
+            </div>
+
+            <p class="card__text" data-section="profile" data-value="description">
+              Tengo 22 años y soy de Piura, Perú. Actualmente estudio el séptimo ciclo de Gestión de Sistemas de Información. Trabajo en mis propios proyectos sobre análisis de datos futbolísticos y desarrollo de software. <br> <br>
+              Trabajo en la creación de un software de predicción deportiva, que utiliza el lenguaje de programación Python implementando algoritmos de aprendizaje automático y análisis de datos para predecir resultados especialmente en partidos de fútbol.
+            </p>
+          </div>
+        </article>
+
+        <article class="card card--experience">
+          <h2 class="card__title">Redes Sociales</h2>
+          <div class="experience">
+            <img src="https://i.postimg.cc/Vvk4XTRx/social.png" alt="Instagram" class="experience__image">
+            <div class="experience__info">
+              <h3 class="experience__job">Instagram</h3>
+              <a class="experience__description" href="https://www.instagram.com/nicolee.palomino/" target="_blank">
+                @nicolee.palomino
+              </a>
+            </div>
+          </div>
+
+          <div class="experience">
+            <img src="https://i.postimg.cc/xCRtJYKG/facebook.png" alt="Facebook" class="experience__image">
+            <div class="experience__info">
+              <h3 class="experience__job">Facebook</h3>
+              <a class="experience__description" href="https://www.facebook.com/nicolee.palomino" target="_blank">
+                @nicolee.palomino
+              </a>
+            </div>
+          </div>
+
+          <div class="experience">
+            <img src="https://i.postimg.cc/9MVLQzqF/gorjeo.png" alt="Twitter" class="experience__image">
+            <div class="experience__info">
+              <h3 class="experience__job">Twitter</h3>
+              <a class="experience__description" href="https://twitter.com/aless_palomino" target="_blank">
+                @aless_palomino
+              </a>
+            </div>
+          </div>
+
+          <div class="experience">
+            <img src="https://i.postimg.cc/5t8PJ8yR/linkedin.png" alt="LinkedIn" class="experience__image">
+            <div class="experience__info">
+              <h3 class="experience__job">LinkedIn</h3>
+              <a class="experience__description" href="https://www.linkedin.com/in/nicole-palomino-alvarado/" target="_blank">
+                @nicole-palomino-alvarado
+              </a>
+            </div>
+          </div>
+
+          <div class="experience">
+            <img src="https://i.postimg.cc/bwDC67h8/github.png" alt="Github" class="experience__image">
+            <div class="experience__info">
+              <h3 class="experience__job">Github</h3>
+              <a class="experience__description" href="https://github.com/Nicole-Palomino" target="_blank">
+                @Nicole-Palomino
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title" data-section="experience" data-value="languages">Lenguajes de Programación</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Python</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title" data-section="experience" data-value="frameworks">Frameworks y Herramientas</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Bootstrap</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Streamlit</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Git</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title" data-section="experience" data-value="database">Base de datos</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">MySQL</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Firebase</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="https://i.postimg.cc/W1PZ5dkc/Manchester-United-Liverpool.png" alt="Analisis de futbol" class="card__image">
+          </div>
+
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#Python</span>
+              <span class="project__tag">#Jupyter Notebook</span>
+            </div>
+
+            <h2 class="card__title" data-section="projects" data-value="first-project-title">PROYECTO DE ANÁLISIS DE DATOS FUTBOLÍSTICOS</h2>
+            <p class="card__text" data-section="projects" data-value="first-project-description">
+              Este proyecto demuestra el potencial de Python y Jupyter Notebook para analizar datos de fútbol. 
+              Los resultados del análisis pueden ser utilizados por entrenadores, jugadores, aficionados y 
+              otros profesionales para tomar mejores decisiones.
+            </p>
+
+            <div class="buttons">
+              <a href="https://github.com/Nicole-Palomino/soccer-data" class="button button--ghost" target="_blank" data-section="projects" data-value="button">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="https://i.postimg.cc/X75FKfXg/linktree.png" alt="Clon Linktree" class="card__image">
+          </div>
+
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+            </div>
+
+            <h2 class="card__title" data-section="projects" data-value="second-project-title">PROYECTO DE REDES SOCIALES</h2>
+            <p class="card__text" data-section="projects" data-value="second-project-description">
+              Este proyecto es un clon de Linktree, una popular herramienta para centralizar enlaces en un 
+              solo lugar. Usando HTML, CSS y Javascript, desarrollé esta aplicación web que te permite crear 
+              tu propia página de enlaces personalizada y compartirla con tu audiencia.
+            </p>
+
+            <div class="buttons">
+              <a href="https://rrss-nicole-palomino.netlify.app" class="button button--primary" target="_blank">Demo</a>
+              <a href="https://github.com/Nicole-Palomino/clone-linktree" class="button button--ghost" target="_blank" data-section="projects" data-value="button">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="https://i.postimg.cc/GtWDw2gY/password.png" alt="Generador de Contraseñas" class="card__image">
+          </div>
+
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+            </div>
+
+            <h2 class="card__title" data-section="projects" data-value="three-project-title">GENERADOR DE CONTRASEÑAS</h2>
+            <p class="card__text" data-section="projects" data-value="three-project-description">
+              Este proyecto generador de contraseñas está desarrollado con HTML, CSS y JavaScript. 
+              Tiene opciones para la longitud de la contraseña, si incluir números, mayúsculas o símbolos.
+            </p>
+
+            <div class="buttons">
+              <a href="https://webpassword-generator.netlify.app" class="button button--primary" target="_blank">Demo</a>
+              <a href="https://github.com/Nicole-Palomino/generador-contrasenas" class="button button--ghost" target="_blank" data-section="projects" data-value="button">Código</a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
