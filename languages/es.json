@@ -15,6 +15,8 @@
         "second-project-title": "PROYECTO DE REDES SOCIALES",
         "second-project-description": "Este proyecto es un clon de Linktree, una popular herramienta para centralizar enlaces en un solo lugar. Usando HTML, CSS y Javascript, desarrollé esta aplicación web que te permite crear tu propia página de enlaces personalizada y compartirla con tu audiencia.",
         "three-project-title": "GENERADOR DE CONTRASEÑAS",
-        "three-project-description": "Este proyecto generador de contraseñas está desarrollado con HTML, CSS y JavaScript. Tiene opciones para la longitud de la contraseña, si incluir números, mayúsculas o símbolos."
+        "three-project-description": "Este proyecto generador de contraseñas está desarrollado con HTML, CSS y JavaScript. Tiene opciones para la longitud de la contraseña, si incluir números, mayúsculas o símbolos.",
+        "four-project-title": "MENSAJERÍA MASIVA - LANDING PAGE",
+        "four-project-description": "Este proyecto consiste en una landing page para una plataforma de mensajería masiva a WhatsApp. Proporciona información sobre los servicios ofrecidos, características principales y precios."
     }
 }
