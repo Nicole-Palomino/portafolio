@@ -134,8 +134,8 @@ const translations = {
         "projects.iot": "IoT",
         "projects.password.title": "PASSWORD GENERATOR",
         "projects.password.description": "This password generator project is developed with HTML, CSS and JavaScript.  It has options for password length, whether to include numbers, capital letters or symbols.",
-        "projects.social.title": "SOCIAL MEDIA PROJECT",
-        "projects.social.description": "This project is a clone of Linktree, a popular tool for centralizing links in one place. Using HTML, CSS and Javascript, I developed this web application that allows you to create your own custom link page and share it with your audience.",
+        "projects.social.title": "SOCIAL MEDIA HUB",
+        "projects.social.description": "Social Media Hub is a personal website that functions as a hub for social and professional links, designed to centralize and easily share all your online profiles and resources. The project is inspired by platforms like Linktree, but with customized features and a modern design.",
         "projects.message.title": "MASS MESSAGING - LANDING PAGE",
         "projects.message.description": "This project consists of a landing page for a WhatsApp mass messaging platform. It provides information about the services offered, main features and prices.",
 
@@ -242,8 +242,8 @@ const translations = {
         "projects.iot": "IoT",
         "projects.password.title": "GENERADOR DE CONTRASEÑAS",
         "projects.password.description": "Este proyecto generador de contraseñas está desarrollado con HTML, CSS y JavaScript. Tiene opciones para la longitud de la contraseña, si incluir números, mayúsculas o símbolos.",
-        "projects.social.title": "PROYECTO DE REDES SOCIALES",
-        "projects.social.description": "Este proyecto es un clon de Linktree, una popular herramienta para centralizar enlaces en un solo lugar. Usando HTML, CSS y Javascript, desarrollé esta aplicación web que te permite crear tu propia página de enlaces personalizada y compartirla con tu audiencia.",
+        "projects.social.title": "CENTRO DE REDES SOCIALES",
+        "projects.social.description": "Centro de redes sociales es una página web personal que funciona como un centro de enlaces sociales y profesionales, diseñada para centralizar y compartir fácilmente todos tus perfiles y recursos en línea. El proyecto está inspirado en plataformas como Linktree, pero con características personalizadas y un diseño moderno.",
         "projects.message.title": "MENSAJERÍA MASIVA - LANDING PAGE",
         "projects.message.description": "Este proyecto consiste en una landing page para una plataforma de mensajería masiva a WhatsApp. Proporciona información sobre los servicios ofrecidos, características principales y precios.",
 
